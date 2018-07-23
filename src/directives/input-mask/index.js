@@ -1,6 +1,8 @@
 import masker from './masker'
 import tokens from './tokens'
 
+// Inspired by https://github.com/vuejs-tips/vue-the-mask
+
 // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events#The_old-fashioned_way
 function event (name) {
     var evt = document.createEvent('Event')
