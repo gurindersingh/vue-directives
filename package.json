@@ -19,7 +19,7 @@
     "lint": "vue-cli-service lint",
     "pack": "vue-cli-service build --target lib --name VueDirectives ./src/directives/index.js"
   },
-  "main": "src/directives/index.js",
+  "main": "dist/VueDirectives.common.js",
   "files": [
     "dist/*.js",
     "dist/*.js.map",
